@@ -1,0 +1,68 @@
+project:
+  name: Multi-Agent Online Fraud Detection System
+  version: "1.0.0"
+  seed: 42
+
+data:
+  n_transactions: 1200000
+  fraud_rate: 0.035
+  n_features_tabular: 120
+  sequence_len: 20
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+  sample_path: data/sample/transactions_sample.csv
+  processed_dir: data/processed
+  raw_dir: data/raw
+
+models:
+  xgboost:
+    n_estimators: 200
+    max_depth: 6
+    learning_rate: 0.08
+    subsample: 0.85
+    colsample_bytree: 0.85
+    min_child_weight: 3
+  autoencoder:
+    hidden_dims: [64, 32, 16]
+    epochs: 5
+    batch_size: 4096
+    lr: 0.001
+    threshold_percentile: 95
+  lstm:
+    hidden_size: 48
+    num_layers: 1
+    epochs: 4
+    batch_size: 2048
+    lr: 0.001
+  nlp:
+    vocab_size: 4000
+    embed_dim: 48
+    hidden_dim: 48
+    epochs: 3
+    batch_size: 2048
+    lr: 0.001
+    use_transformer_encoder: true
+
+fusion:
+  weights:
+    xgboost: 0.40
+    autoencoder: 0.25
+    lstm: 0.20
+    nlp: 0.15
+  mode: stacked_logistic
+
+decision:
+  threshold_block: 0.70
+  threshold_review: 0.40
+
+serving:
+  host: 0.0.0.0
+  port: 8000
+  redis_url: redis://localhost:6379/0
+  redis_ttl_seconds: 300
+  cache_enabled: true
+
+artifacts:
+  models_dir: artifacts/models
+  metrics_dir: artifacts/metrics
