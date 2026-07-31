@@ -1,0 +1,42 @@
+{
+  "project": "RAG Pipeline with Multilingual OCR",
+  "period": "Feb 2025 - Apr 2025",
+  "source_type": "ocr_images",
+  "languages": [
+    "en",
+    "hi",
+    "es"
+  ],
+  "languages_count": 3,
+  "baseline": {
+    "accuracy_pct": 40.0,
+    "hallucination_pct": 66.67,
+    "avg_latency_ms": 38.22,
+    "max_latency_ms": 53.1,
+    "under_1_5s": true
+  },
+  "optimized": {
+    "accuracy_pct": 100.0,
+    "hallucination_pct": 0.0,
+    "avg_latency_ms": 29.72,
+    "max_latency_ms": 53.99,
+    "under_1_5s": true
+  },
+  "measured_results": {
+    "answer_accuracy_improvement_pct": 150.0,
+    "answer_accuracy_improvement_points": 60.0,
+    "hallucination_reduction_pct": 100.0,
+    "ocr_to_answer_under_1_5_seconds": true,
+    "optimized_avg_latency_ms": 29.72,
+    "optimized_max_latency_ms": 53.99
+  },
+  "resume_targets": {
+    "answer_accuracy_improvement_pct": 30.0,
+    "hallucination_reduction_pct": 25.0,
+    "ocr_to_answer_under_1_5_seconds": true,
+    "meets_accuracy_target": true,
+    "meets_hallucination_target": true,
+    "meets_latency_target": true,
+    "all_resume_targets_met": true
+  }
+}

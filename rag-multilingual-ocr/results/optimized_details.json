@@ -1,0 +1,245 @@
+{
+  "mode": "optimized",
+  "n_questions": 15,
+  "languages_covered": [
+    "en",
+    "es",
+    "hi"
+  ],
+  "accuracy": 1.0,
+  "accuracy_pct": 100.0,
+  "hallucination_rate": 0.0,
+  "hallucination_pct": 0.0,
+  "avg_latency_ms": 29.72,
+  "p95_latency_ms": 36.49,
+  "max_latency_ms": 53.99,
+  "under_1_5s": true,
+  "ingest_seconds": 0.7,
+  "details": [
+    {
+      "id": "q1",
+      "language": "en",
+      "question": "Where is the emergency assembly point?",
+      "gold_answer": "Gate 4 near the material yard",
+      "prediction": "Emergency assembly point is Gate 4 near the material yard.",
+      "correct": true,
+      "hallucinated": false,
+      "latency_ms": 26.42,
+      "sources": [
+        "en_site_safety_o5",
+        "en_site_safety_o4",
+        "en_site_safety_o7"
+      ]
+    },
+    {
+      "id": "q2",
+      "language": "en",
+      "question": "What is the maximum wind speed for crane operations?",
+      "gold_answer": "40 km/h",
+      "prediction": "Maximum wind speed for crane operations is 40 km/h.",
+      "correct": true,
+      "hallucinated": false,
+      "latency_ms": 25.88,
+      "sources": [
+        "en_site_safety_o5",
+        "en_site_safety_o6",
+        "en_site_safety_o3"
+      ]
+    },
+    {
+      "id": "q3",
+      "language": "en",
+      "question": "What is the PPE non-compliance fine amount?",
+      "gold_answer": "INR 2,000 per occurrence",
+      "prediction": "PPE non-compliance fine is INR 2,000 per occurrence.",
+      "correct": true,
+      "hallucinated": false,
+      "latency_ms": 31.93,
+      "sources": [
+        "en_site_safety_o9",
+        "en_site_safety_o8",
+        "es_quality_report_o8"
+      ]
+    },
+    {
+      "id": "q4",
+      "language": "en",
+      "question": "Where is the first-aid station located?",
+      "gold_answer": "Container B next to the site office",
+      "prediction": "First-aid station is located in Container B next to the site office.",
+      "correct": true,
+      "hallucinated": false,
+      "latency_ms": 31.04,
+      "sources": [
+        "en_site_safety_o10",
+        "hi_progress_update_o7",
+        "en_site_safety_o7"
+      ]
+    },
+    {
+      "id": "q5",
+      "language": "hi",
+      "question": "ब्लॉक सी की कंक्रीट ढलाई कब पूरी हुई?",
+      "gold_answer": "15 मार्च",
+      "prediction": "परियोजना प्रगति अपडेट - हैदराबाद टॉवर ब्लॉक सी ब्लॉक सी की कंक्रीट ढलाई 15 मार्च तक पूरी हो चुकी है।",
+      "correct": true,
+      "hallucinated": false,
+      "latency_ms": 24.76,
+      "sources": [
+        "hi_progress_update_o0",
+        "hi_progress_update_o1",
+        "es_quality_report_o6"
+      ]
+    },
+    {
+      "id": "q6",
+      "language": "hi",
+      "question": "साइट पर कुल सक्रिय श्रमिक कितने हैं?",
+      "gold_answer": "128",
+      "prediction": "साइट पर कुल सक्रिय श्रमिक संख्या 128 है।",
+      "correct": true,
+      "hallucinated": false,
+      "latency_ms": 27.38,
+      "sources": [
+        "hi_progress_update_o9",
+        "hi_progress_update_o6",
+        "hi_progress_update_o7"
+      ]
+    },
+    {
+      "id": "q7",
+      "language": "hi",
+      "question": "अगला ग्राहक निरीक्षण कब है?",
+      "gold_answer": "22 मार्च",
+      "prediction": "अगला ग्राहक निरीक्षण 22 मार्च को निर्धारित है।",
+      "correct": true,
+      "hallucinated": false,
+      "latency_ms": 28.8,
+      "sources": [
+        "hi_progress_update_o6",
+        "es_quality_report_o9",
+        "hi_progress_update_o5"
+      ]
+    },
+    {
+      "id": "q8",
+      "language": "es",
+      "question": "Cual fue la puntuacion de inspeccion de hormigon en el piso 5?",
+      "gold_answer": "92 sobre 100",
+      "prediction": "La inspeccion de hormigon en el piso 5 obtuvo una puntuacion de 92 sobre 100.",
+      "correct": true,
+      "hallucinated": false,
+      "latency_ms": 53.99,
+      "sources": [
+        "es_quality_report_o1",
+        "es_quality_report_o0",
+        "es_quality_report_o2"
+      ]
+    },
+    {
+      "id": "q9",
+      "language": "es",
+      "question": "Quien es el responsable de calidad del sitio?",
+      "gold_answer": "Ingeniero Carlos Mendoza",
+      "prediction": "El responsable de calidad del sitio es Ingeniero Carlos Mendoza.",
+      "correct": true,
+      "hallucinated": false,
+      "latency_ms": 24.85,
+      "sources": [
+        "es_quality_report_o9",
+        "en_site_safety_o0",
+        "es_quality_report_o0"
+      ]
+    },
+    {
+      "id": "q10",
+      "language": "es",
+      "question": "Cual es la tolerancia maxima de desviacion de muro?",
+      "gold_answer": "5 milimetros",
+      "prediction": "La tolerancia maxima de desviacion de muro es de 5 milimetros.",
+      "correct": true,
+      "hallucinated": false,
+      "latency_ms": 36.49,
+      "sources": [
+        "es_quality_report_o3",
+        "es_quality_report_o4",
+        "es_quality_report_o6"
+      ]
+    },
+    {
+      "id": "q11",
+      "language": "en",
+      "question": "How often must scaffolding inspection be completed?",
+      "gold_answer": "every Monday before work begins",
+      "prediction": "Scaffolding inspection must be completed every Monday before work begins.",
+      "correct": true,
+      "hallucinated": false,
+      "latency_ms": 30.53,
+      "sources": [
+        "en_site_safety_o2",
+        "en_site_safety_o3",
+        "es_quality_report_o6"
+      ]
+    },
+    {
+      "id": "q12",
+      "language": "en",
+      "question": "What lux level is required for night shift walkways?",
+      "gold_answer": "at least 100 lux",
+      "prediction": "Night shift work requires additional lighting of at least 100 lux on walkways.",
+      "correct": true,
+      "hallucinated": false,
+      "latency_ms": 26.32,
+      "sources": [
+        "en_site_safety_o10",
+        "en_site_safety_o9",
+        "en_site_safety_o1"
+      ]
+    },
+    {
+      "id": "q13",
+      "language": "hi",
+      "question": "इस्पात सुदृढीकरण कार्य कितने प्रतिशत पूरा है?",
+      "gold_answer": "80 प्रतिशत",
+      "prediction": "इस्पात सुदृढीकरण कार्य 80 प्रतिशत पूरा है।",
+      "correct": true,
+      "hallucinated": false,
+      "latency_ms": 25.06,
+      "sources": [
+        "hi_progress_update_o2",
+        "hi_progress_update_o1",
+        "es_quality_report_o4"
+      ]
+    },
+    {
+      "id": "q14",
+      "language": "es",
+      "question": "Cuando esta programado el siguiente audit externo?",
+      "gold_answer": "28 de marzo",
+      "prediction": "El siguiente audit externo esta programado para el 28 de marzo.",
+      "correct": true,
+      "hallucinated": false,
+      "latency_ms": 27.83,
+      "sources": [
+        "es_quality_report_o9",
+        "es_quality_report_o8",
+        "hi_progress_update_o6"
+      ]
+    },
+    {
+      "id": "q15",
+      "language": "es",
+      "question": "Que resistencia alcanzo el concreto a los 28 dias?",
+      "gold_answer": "32 MPa",
+      "prediction": "El ensayo de resistencia del concreto alcanzo 32 MPa a los 28 dias.",
+      "correct": true,
+      "hallucinated": false,
+      "latency_ms": 24.5,
+      "sources": [
+        "es_quality_report_o6",
+        "es_quality_report_o3",
+        "es_quality_report_o5"
+      ]
+    }
+  ]
+}

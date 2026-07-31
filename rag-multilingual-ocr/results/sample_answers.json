@@ -1,0 +1,38 @@
+[
+  {
+    "question": "Where is the emergency assembly point?",
+    "answer": "Emergency assembly point is Gate 4 near the material yard.",
+    "latency_ms": 62.67,
+    "under_1_5s": true,
+    "sources": [
+      "en_site_safety_o5",
+      "en_site_safety_o4",
+      "en_site_safety_o7"
+    ],
+    "mode": "optimized"
+  },
+  {
+    "question": "साइट पर कुल सक्रिय श्रमिक कितने हैं?",
+    "answer": "साइट पर कुल सक्रिय श्रमिक संख्या 128 है।",
+    "latency_ms": 55.21,
+    "under_1_5s": true,
+    "sources": [
+      "hi_progress_update_o9",
+      "hi_progress_update_o6",
+      "hi_progress_update_o7"
+    ],
+    "mode": "optimized"
+  },
+  {
+    "question": "Quien es el responsable de calidad del sitio?",
+    "answer": "El responsable de calidad del sitio es Ingeniero Carlos Mendoza.",
+    "latency_ms": 61.85,
+    "under_1_5s": true,
+    "sources": [
+      "es_quality_report_o9",
+      "en_site_safety_o0",
+      "es_quality_report_o0"
+    ],
+    "mode": "optimized"
+  }
+]

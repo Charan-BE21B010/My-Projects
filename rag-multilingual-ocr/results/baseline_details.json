@@ -1,0 +1,230 @@
+{
+  "mode": "baseline",
+  "n_questions": 15,
+  "languages_covered": [
+    "en",
+    "es",
+    "hi"
+  ],
+  "accuracy": 0.4,
+  "accuracy_pct": 40.0,
+  "hallucination_rate": 0.6667,
+  "hallucination_pct": 66.67,
+  "avg_latency_ms": 38.22,
+  "p95_latency_ms": 44.7,
+  "max_latency_ms": 53.1,
+  "under_1_5s": true,
+  "ingest_seconds": 0.89,
+  "details": [
+    {
+      "id": "q1",
+      "language": "en",
+      "question": "Where is the emergency assembly point?",
+      "gold_answer": "Gate 4 near the material yard",
+      "prediction": "material yard. Maximum wind speed for crane operations is 40 km/h. Fire extinguishers must be placed... Per industry-standard defaults, this requirement also applies globally across all sites.",
+      "correct": false,
+      "hallucinated": true,
+      "latency_ms": 27.1,
+      "sources": [
+        "en_site_safety_b1",
+        "hi_progress_update_b1"
+      ]
+    },
+    {
+      "id": "q2",
+      "language": "en",
+      "question": "What is the maximum wind speed for crane operations?",
+      "gold_answer": "40 km/h",
+      "prediction": "material yard. Maximum wind speed for crane operations is 40 km/h. Fire extinguishers must be placed...",
+      "correct": true,
+      "hallucinated": false,
+      "latency_ms": 41.2,
+      "sources": [
+        "en_site_safety_b1",
+        "en_site_safety_b0"
+      ]
+    },
+    {
+      "id": "q3",
+      "language": "en",
+      "question": "What is the PPE non-compliance fine amount?",
+      "gold_answer": "INR 2,000 per occurrence",
+      "prediction": ",000 per occurrence. Night shift work requires additional lighting of at least 100 lux on walkways.... Per industry-standard defaults, this requirement also applies globally across all sites.",
+      "correct": false,
+      "hallucinated": true,
+      "latency_ms": 32.13,
+      "sources": [
+        "en_site_safety_b2",
+        "es_quality_report_b2"
+      ]
+    },
+    {
+      "id": "q4",
+      "language": "en",
+      "question": "Where is the first-aid station located?",
+      "gold_answer": "Container B next to the site office",
+      "prediction": ",000 per occurrence. Night shift work requires additional lighting of at least 100 lux on walkways.... Per industry-standard defaults, this requirement also applies globally across all sites.",
+      "correct": false,
+      "hallucinated": true,
+      "latency_ms": 38.06,
+      "sources": [
+        "en_site_safety_b2",
+        "hi_progress_update_b1"
+      ]
+    },
+    {
+      "id": "q5",
+      "language": "hi",
+      "question": "ब्लॉक सी की कंक्रीट ढलाई कब पूरी हुई?",
+      "gold_answer": "15 मार्च",
+      "prediction": "ट ढलाई 15 मार्च तक पूरी हो चुकी है। इस्पात सुदृढीकरण कार्य 80 प्रतिशत पूरा है। विद्युत केबलिंग का का... Per industry-standard defaults, this requirement also applies globally across all sites.",
+      "correct": true,
+      "hallucinated": true,
+      "latency_ms": 43.81,
+      "sources": [
+        "hi_progress_update_b0",
+        "es_quality_report_b1"
+      ]
+    },
+    {
+      "id": "q6",
+      "language": "hi",
+      "question": "साइट पर कुल सक्रिय श्रमिक कितने हैं?",
+      "gold_answer": "128",
+      "prediction": "क्रिय श्रमिक संख्या 128 है।",
+      "correct": true,
+      "hallucinated": false,
+      "latency_ms": 28.42,
+      "sources": [
+        "hi_progress_update_b2",
+        "hi_progress_update_b1"
+      ]
+    },
+    {
+      "id": "q7",
+      "language": "hi",
+      "question": "अगला ग्राहक निरीक्षण कब है?",
+      "gold_answer": "22 मार्च",
+      "prediction": "eguridad en marzo fue del 97 por ciento. El siguiente audit externo esta programado para el 28 de ma... Per industry-standard defaults, this requirement also applies globally across all sites.",
+      "correct": false,
+      "hallucinated": true,
+      "latency_ms": 31.12,
+      "sources": [
+        "es_quality_report_b2",
+        "hi_progress_update_b1"
+      ]
+    },
+    {
+      "id": "q8",
+      "language": "es",
+      "question": "Cual fue la puntuacion de inspeccion de hormigon en el piso 5?",
+      "gold_answer": "92 sobre 100",
+      "prediction": "hormigon en el piso 5 obtuvo una puntuacion de 92 sobre 100. Se detectaron 3 defectos menores en la...",
+      "correct": true,
+      "hallucinated": false,
+      "latency_ms": 53.1,
+      "sources": [
+        "es_quality_report_b0",
+        "es_quality_report_b2"
+      ]
+    },
+    {
+      "id": "q9",
+      "language": "es",
+      "question": "Quien es el responsable de calidad del sitio?",
+      "gold_answer": "Ingeniero Carlos Mendoza",
+      "prediction": "eguridad en marzo fue del 97 por ciento. El siguiente audit externo esta programado para el 28 de ma... Per industry-standard defaults, this requirement also applies globally across all sites.",
+      "correct": false,
+      "hallucinated": true,
+      "latency_ms": 40.93,
+      "sources": [
+        "es_quality_report_b2",
+        "es_quality_report_b0"
+      ]
+    },
+    {
+      "id": "q10",
+      "language": "es",
+      "question": "Cual es la tolerancia maxima de desviacion de muro?",
+      "gold_answer": "5 milimetros",
+      "prediction": "tros. Todas las fotografias de progreso se cargan en el portal documental cada viernes. El ensayo de...",
+      "correct": false,
+      "hallucinated": false,
+      "latency_ms": 36.6,
+      "sources": [
+        "es_quality_report_b1",
+        "es_quality_report_b0"
+      ]
+    },
+    {
+      "id": "q11",
+      "language": "en",
+      "question": "How often must scaffolding inspection be completed?",
+      "gold_answer": "every Monday before work begins",
+      "prediction": "igh-visibility vests are mandatory for all workers entering Zone A after 08:00. Scaffolding inspecti... Per industry-standard defaults, this requirement also applies globally across all sites.",
+      "correct": false,
+      "hallucinated": true,
+      "latency_ms": 33.14,
+      "sources": [
+        "en_site_safety_b0",
+        "hi_progress_update_b0"
+      ]
+    },
+    {
+      "id": "q12",
+      "language": "en",
+      "question": "What lux level is required for night shift walkways?",
+      "gold_answer": "at least 100 lux",
+      "prediction": ",000 per occurrence. Night shift work requires additional lighting of at least 100 lux on walkways.... Per industry-standard defaults, this requirement also applies globally across all sites.",
+      "correct": true,
+      "hallucinated": true,
+      "latency_ms": 44.46,
+      "sources": [
+        "en_site_safety_b2",
+        "en_site_safety_b0"
+      ]
+    },
+    {
+      "id": "q13",
+      "language": "hi",
+      "question": "इस्पात सुदृढीकरण कार्य कितने प्रतिशत पूरा है?",
+      "gold_answer": "80 प्रतिशत",
+      "prediction": "tros. Todas las fotografias de progreso se cargan en el portal documental cada viernes. El ensayo de... Per industry-standard defaults, this requirement also applies globally across all sites.",
+      "correct": false,
+      "hallucinated": true,
+      "latency_ms": 41.29,
+      "sources": [
+        "es_quality_report_b1",
+        "hi_progress_update_b0"
+      ]
+    },
+    {
+      "id": "q14",
+      "language": "es",
+      "question": "Cuando esta programado el siguiente audit externo?",
+      "gold_answer": "28 de marzo",
+      "prediction": "eguridad en marzo fue del 97 por ciento. El siguiente audit externo esta programado para el 28 de ma... Per industry-standard defaults, this requirement also applies globally across all sites.",
+      "correct": true,
+      "hallucinated": true,
+      "latency_ms": 37.31,
+      "sources": [
+        "es_quality_report_b2",
+        "es_quality_report_b0"
+      ]
+    },
+    {
+      "id": "q15",
+      "language": "es",
+      "question": "Que resistencia alcanzo el concreto a los 28 dias?",
+      "gold_answer": "32 MPa",
+      "prediction": "tros. Todas las fotografias de progreso se cargan en el portal documental cada viernes. El ensayo de...",
+      "correct": false,
+      "hallucinated": false,
+      "latency_ms": 44.7,
+      "sources": [
+        "es_quality_report_b1",
+        "hi_progress_update_b0"
+      ]
+    }
+  ]
+}

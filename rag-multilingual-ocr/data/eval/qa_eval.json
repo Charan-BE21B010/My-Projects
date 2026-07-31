@@ -1,0 +1,107 @@
+[
+  {
+    "id": "q1",
+    "language": "en",
+    "question": "Where is the emergency assembly point?",
+    "gold_answer": "Gate 4 near the material yard",
+    "must_include": ["Gate 4"]
+  },
+  {
+    "id": "q2",
+    "language": "en",
+    "question": "What is the maximum wind speed for crane operations?",
+    "gold_answer": "40 km/h",
+    "must_include": ["40"]
+  },
+  {
+    "id": "q3",
+    "language": "en",
+    "question": "What is the PPE non-compliance fine amount?",
+    "gold_answer": "INR 2,000 per occurrence",
+    "must_include": ["2,000", "2000"]
+  },
+  {
+    "id": "q4",
+    "language": "en",
+    "question": "Where is the first-aid station located?",
+    "gold_answer": "Container B next to the site office",
+    "must_include": ["Container B"]
+  },
+  {
+    "id": "q5",
+    "language": "hi",
+    "question": "ब्लॉक सी की कंक्रीट ढलाई कब पूरी हुई?",
+    "gold_answer": "15 मार्च",
+    "must_include": ["15", "मार्च"]
+  },
+  {
+    "id": "q6",
+    "language": "hi",
+    "question": "साइट पर कुल सक्रिय श्रमिक कितने हैं?",
+    "gold_answer": "128",
+    "must_include": ["128"]
+  },
+  {
+    "id": "q7",
+    "language": "hi",
+    "question": "अगला ग्राहक निरीक्षण कब है?",
+    "gold_answer": "22 मार्च",
+    "must_include": ["22", "मार्च"]
+  },
+  {
+    "id": "q8",
+    "language": "es",
+    "question": "Cual fue la puntuacion de inspeccion de hormigon en el piso 5?",
+    "gold_answer": "92 sobre 100",
+    "must_include": ["92"]
+  },
+  {
+    "id": "q9",
+    "language": "es",
+    "question": "Quien es el responsable de calidad del sitio?",
+    "gold_answer": "Ingeniero Carlos Mendoza",
+    "must_include": ["Carlos Mendoza"]
+  },
+  {
+    "id": "q10",
+    "language": "es",
+    "question": "Cual es la tolerancia maxima de desviacion de muro?",
+    "gold_answer": "5 milimetros",
+    "must_include": ["5"]
+  },
+  {
+    "id": "q11",
+    "language": "en",
+    "question": "How often must scaffolding inspection be completed?",
+    "gold_answer": "every Monday before work begins",
+    "must_include": ["Monday"]
+  },
+  {
+    "id": "q12",
+    "language": "en",
+    "question": "What lux level is required for night shift walkways?",
+    "gold_answer": "at least 100 lux",
+    "must_include": ["100"]
+  },
+  {
+    "id": "q13",
+    "language": "hi",
+    "question": "इस्पात सुदृढीकरण कार्य कितने प्रतिशत पूरा है?",
+    "gold_answer": "80 प्रतिशत",
+    "must_include": ["80"]
+  },
+  {
+    "id": "q14",
+    "language": "es",
+    "question": "Cuando esta programado el siguiente audit externo?",
+    "gold_answer": "28 de marzo",
+    "must_include": ["28"]
+  },
+  {
+    "id": "q15",
+    "language": "es",
+    "question": "Que resistencia alcanzo el concreto a los 28 dias?",
+    "gold_answer": "32 MPa",
+    "must_include": ["32"]
+  }
+]

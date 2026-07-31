@@ -1,0 +1,12 @@
+Enterprise Site Safety Handbook - Metro Package 3
+
+Hard hats and high-visibility vests are mandatory for all workers entering Zone A after 08:00.
+Scaffolding inspection must be completed every Monday before work begins.
+Only certified crane operators may operate tower crane TC-12.
+Emergency assembly point is Gate 4 near the material yard.
+Maximum wind speed for crane operations is 40 km/h.
+Fire extinguishers must be placed every 30 meters along the south corridor.
+All near-miss incidents must be logged in the safety portal within 2 hours.
+PPE non-compliance fine is INR 2,000 per occurrence.
+Night shift work requires additional lighting of at least 100 lux on walkways.
+First-aid station is located in Container B next to the site office.
