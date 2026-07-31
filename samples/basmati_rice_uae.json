@@ -1,0 +1,150 @@
+{
+  "product": "Basmati Rice",
+  "country": "UAE",
+  "top_n": 8,
+  "generated_at": "2026-07-31T21:02:30.166625+00:00",
+  "mode": "seed_only",
+  "queries_used": [
+    "Basmati Rice importer UAE",
+    "Basmati Rice distributor wholesale UAE",
+    "Basmati Rice importer buyer UAE",
+    "\"Basmati Rice\" importer OR wholesaler site:.ae",
+    "Basmati Rice import company UAE contact",
+    "UAE Basmati Rice B2B distributor"
+  ],
+  "importers": [
+    {
+      "rank": 1,
+      "company_name": "Al Saqar Trading",
+      "website": "https://alsaqartrading.com/",
+      "relevance_score": 100.0,
+      "match_reason": "product keywords align with Basmati Rice; clear footprint in UAE; signals importer/distributor/wholesale role; public contact details found",
+      "contact_email": "saqartrd@eim.ae",
+      "contact_phone": "+971 2 677 7792",
+      "contact_linkedin": null,
+      "sources_used": [
+        "https://alsaqartrading.com/"
+      ],
+      "score_breakdown": {
+        "product_fit": 28.0,
+        "geo_fit": 18.0,
+        "importer_role": 22.0,
+        "contactability": 25.0,
+        "evidence": 12.0
+      },
+      "confidence": "high"
+    },
+    {
+      "rank": 2,
+      "company_name": "Dar Alshumukh General Trading L.L.C.",
+      "website": "https://daralshumukh.com/",
+      "relevance_score": 98.0,
+      "match_reason": "product keywords align with Basmati Rice; clear footprint in UAE; signals importer/distributor/wholesale role; public contact details found",
+      "contact_email": "sales@daralshumukh.com",
+      "contact_phone": null,
+      "contact_linkedin": "https://www.linkedin.com/in/nagaraju-vallepu-785659354/",
+      "sources_used": [
+        "https://daralshumukh.com/",
+        "https://daralshumukh.com/#"
+      ],
+      "score_breakdown": {
+        "product_fit": 28.0,
+        "geo_fit": 18.0,
+        "importer_role": 18.0,
+        "contactability": 22.0,
+        "evidence": 12.0
+      },
+      "confidence": "high"
+    },
+    {
+      "rank": 3,
+      "company_name": "Evergreen Delight Goods Wholesalers L.L.C.",
+      "website": "https://www.evergreendgw.com/",
+      "relevance_score": 94.0,
+      "match_reason": "product keywords align with Basmati Rice; clear footprint in UAE; signals importer/distributor/wholesale role; public contact details found",
+      "contact_email": "evergreen.dgw@gmail.com",
+      "contact_phone": null,
+      "contact_linkedin": "https://www.linkedin.com/company/evergreen-delight-goods-wholesalers-llc/",
+      "sources_used": [
+        "https://www.evergreendgw.com/",
+        "https://www.evergreendgw.com/#about",
+        "https://www.evergreendgw.com/#contact"
+      ],
+      "score_breakdown": {
+        "product_fit": 24.0,
+        "geo_fit": 18.0,
+        "importer_role": 18.0,
+        "contactability": 22.0,
+        "evidence": 12.0
+      },
+      "confidence": "high"
+    },
+    {
+      "rank": 4,
+      "company_name": "Five Oceans Trading L.L.C",
+      "website": "https://www.fiveoceanstrading.com/",
+      "relevance_score": 83.0,
+      "match_reason": "product keywords align with Basmati Rice; signals importer/distributor/wholesale role; public contact details found",
+      "contact_email": "info@fiveoceanstrading.com",
+      "contact_phone": "+971 5656 85687",
+      "contact_linkedin": null,
+      "sources_used": [
+        "https://www.fiveoceanstrading.com/"
+      ],
+      "score_breakdown": {
+        "product_fit": 28.0,
+        "geo_fit": 0.0,
+        "importer_role": 18.0,
+        "contactability": 25.0,
+        "evidence": 12.0
+      },
+      "confidence": "high"
+    },
+    {
+      "rank": 5,
+      "company_name": "Fresh Harvest Trading",
+      "website": "https://freshharvesttradingcollc.com/",
+      "relevance_score": 81.0,
+      "match_reason": "product keywords align with Basmati Rice; clear footprint in UAE; signals importer/distributor/wholesale role",
+      "contact_email": null,
+      "contact_phone": null,
+      "contact_linkedin": null,
+      "sources_used": [
+        "https://freshharvesttradingcollc.com/"
+      ],
+      "score_breakdown": {
+        "product_fit": 28.0,
+        "geo_fit": 18.0,
+        "importer_role": 18.0,
+        "contactability": 5.0,
+        "evidence": 12.0
+      },
+      "confidence": "high"
+    },
+    {
+      "rank": 6,
+      "company_name": "Orgaviya Foods",
+      "website": "https://orgaviyafoods.com/",
+      "relevance_score": 81.0,
+      "match_reason": "product keywords align with Basmati Rice; clear footprint in UAE; signals importer/distributor/wholesale role",
+      "contact_email": null,
+      "contact_phone": null,
+      "contact_linkedin": null,
+      "sources_used": [
+        "https://orgaviyafoods.com/"
+      ],
+      "score_breakdown": {
+        "product_fit": 28.0,
+        "geo_fit": 18.0,
+        "importer_role": 18.0,
+        "contactability": 5.0,
+        "evidence": 12.0
+      },
+      "confidence": "high"
+    }
+  ],
+  "notes": [
+    "Ran in seed_only mode for deterministic high-precision sample output.",
+    "Contact fields are taken from public website text when available. Missing email/phone usually means the site hides them behind forms."
+  ]
+}

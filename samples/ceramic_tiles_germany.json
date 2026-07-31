@@ -1,0 +1,152 @@
+{
+  "product": "Ceramic Tiles",
+  "country": "Germany",
+  "top_n": 8,
+  "generated_at": "2026-07-31T21:02:02.679502+00:00",
+  "mode": "seed_only",
+  "queries_used": [
+    "Ceramic Tiles importer Germany",
+    "Ceramic Tiles distributor wholesale Germany",
+    "Ceramic Tiles importer buyer Germany",
+    "\"Ceramic Tiles\" importer OR wholesaler site:.de",
+    "Ceramic Tiles import company Germany contact",
+    "Germany Ceramic Tiles B2B distributor"
+  ],
+  "importers": [
+    {
+      "rank": 1,
+      "company_name": "Welscheit Import Export GmbH",
+      "website": "https://www.welscheit.de/en",
+      "relevance_score": 100.0,
+      "match_reason": "product keywords align with Ceramic Tiles; clear footprint in Germany; signals importer/distributor/wholesale role; public contact details found",
+      "contact_email": "info@welscheit.de",
+      "contact_phone": "+49 (0)2508 678959-0",
+      "contact_linkedin": null,
+      "sources_used": [
+        "https://www.welscheit.de/en"
+      ],
+      "score_breakdown": {
+        "product_fit": 28.0,
+        "geo_fit": 18.0,
+        "importer_role": 18.0,
+        "contactability": 25.0,
+        "evidence": 12.0
+      },
+      "confidence": "high"
+    },
+    {
+      "rank": 2,
+      "company_name": "Agrob Buchtal",
+      "website": "https://agrob-buchtal.de/",
+      "relevance_score": 100.0,
+      "match_reason": "product keywords align with Ceramic Tiles; clear footprint in Germany; signals importer/distributor/wholesale role; public contact details found",
+      "contact_email": "agrob-buchtal@deutsche-steinzeug.de",
+      "contact_phone": "+49 9435 391 0",
+      "contact_linkedin": null,
+      "sources_used": [
+        "https://agrob-buchtal.de/",
+        "https://agrob-buchtal.de/en/imprint"
+      ],
+      "score_breakdown": {
+        "product_fit": 28.0,
+        "geo_fit": 18.0,
+        "importer_role": 18.0,
+        "contactability": 25.0,
+        "evidence": 12.0
+      },
+      "confidence": "high"
+    },
+    {
+      "rank": 3,
+      "company_name": "Fliesen-Zentrum Deutschland GmbH",
+      "website": "https://www.fliesen-zentrum.de/",
+      "relevance_score": 97.0,
+      "match_reason": "product keywords align with Ceramic Tiles; clear footprint in Germany; signals importer/distributor/wholesale role; public contact details found",
+      "contact_email": "onlineberatung@fliesen-zentrum.de",
+      "contact_phone": "+49 30 3435599-0",
+      "contact_linkedin": null,
+      "sources_used": [
+        "https://www.fliesen-zentrum.de/",
+        "https://www.fliesen-zentrum.de/kontakt/"
+      ],
+      "score_breakdown": {
+        "product_fit": 24.0,
+        "geo_fit": 18.0,
+        "importer_role": 18.0,
+        "contactability": 25.0,
+        "evidence": 12.0
+      },
+      "confidence": "high"
+    },
+    {
+      "rank": 4,
+      "company_name": "KERAMUNDO",
+      "website": "https://www.keramundo.de/",
+      "relevance_score": 97.0,
+      "match_reason": "product keywords align with Ceramic Tiles; clear footprint in Germany; signals importer/distributor/wholesale role; public contact details found",
+      "contact_email": "info@stark-deutschland.de",
+      "contact_phone": "+49 69 668110-0",
+      "contact_linkedin": null,
+      "sources_used": [
+        "https://www.keramundo.de/",
+        "https://www.keramundo.de/impressum"
+      ],
+      "score_breakdown": {
+        "product_fit": 24.0,
+        "geo_fit": 18.0,
+        "importer_role": 18.0,
+        "contactability": 25.0,
+        "evidence": 12.0
+      },
+      "confidence": "high"
+    },
+    {
+      "rank": 5,
+      "company_name": "CERANDO",
+      "website": "https://cerando.de/",
+      "relevance_score": 97.0,
+      "match_reason": "product keywords align with Ceramic Tiles; clear footprint in Germany; signals importer/distributor/wholesale role; public contact details found",
+      "contact_email": "info@cerando.de",
+      "contact_phone": "22 - 24 59075",
+      "contact_linkedin": null,
+      "sources_used": [
+        "https://cerando.de/",
+        "https://cerando.de/kontakt/",
+        "https://cerando.de/impressum/"
+      ],
+      "score_breakdown": {
+        "product_fit": 24.0,
+        "geo_fit": 18.0,
+        "importer_role": 18.0,
+        "contactability": 25.0,
+        "evidence": 12.0
+      },
+      "confidence": "high"
+    },
+    {
+      "rank": 6,
+      "company_name": "Rheinimex GmbH",
+      "website": "https://rheinimex.de/",
+      "relevance_score": 91.0,
+      "match_reason": "product keywords align with Ceramic Tiles; clear footprint in Germany; signals importer/distributor/wholesale role; public contact details found",
+      "contact_email": "info@rheinimex.de",
+      "contact_phone": "+49 2173 2600547",
+      "contact_linkedin": null,
+      "sources_used": [
+        "https://rheinimex.de/"
+      ],
+      "score_breakdown": {
+        "product_fit": 18.0,
+        "geo_fit": 18.0,
+        "importer_role": 18.0,
+        "contactability": 25.0,
+        "evidence": 12.0
+      },
+      "confidence": "high"
+    }
+  ],
+  "notes": [
+    "Ran in seed_only mode for deterministic high-precision sample output.",
+    "Contact fields are taken from public website text when available. Missing email/phone usually means the site hides them behind forms."
+  ]
+}

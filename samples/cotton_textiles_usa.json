@@ -1,0 +1,151 @@
+{
+  "product": "Cotton Textiles",
+  "country": "USA",
+  "top_n": 8,
+  "generated_at": "2026-07-31T21:02:42.729255+00:00",
+  "mode": "seed_only",
+  "queries_used": [
+    "Cotton Textiles importer USA",
+    "Cotton Textiles distributor wholesale USA",
+    "Cotton Textiles importer buyer USA",
+    "\"Cotton Textiles\" importer OR wholesaler site:.us",
+    "Cotton Textiles import company USA contact",
+    "USA Cotton Textiles B2B distributor"
+  ],
+  "importers": [
+    {
+      "rank": 1,
+      "company_name": "Go Textile",
+      "website": "https://gotextileco.com/",
+      "relevance_score": 100.0,
+      "match_reason": "product keywords align with Cotton Textiles; clear footprint in USA; signals importer/distributor/wholesale role; public contact details found",
+      "contact_email": "req@euphoriccolors.com",
+      "contact_phone": "800-775-7227",
+      "contact_linkedin": null,
+      "sources_used": [
+        "https://gotextileco.com/"
+      ],
+      "score_breakdown": {
+        "product_fit": 24.0,
+        "geo_fit": 18.0,
+        "importer_role": 22.0,
+        "contactability": 25.0,
+        "evidence": 12.0
+      },
+      "confidence": "high"
+    },
+    {
+      "rank": 2,
+      "company_name": "Tabb Textile Company Inc.",
+      "website": "https://www.tabbtextileinc.com/",
+      "relevance_score": 94.0,
+      "match_reason": "product keywords align with Cotton Textiles; signals importer/distributor/wholesale role; public contact details found",
+      "contact_email": "zach@textilegroup.net",
+      "contact_phone": "334-745-6762",
+      "contact_linkedin": "https://www.linkedin.com/company/tabb-textile-company-inc",
+      "sources_used": [
+        "https://www.tabbtextileinc.com/"
+      ],
+      "score_breakdown": {
+        "product_fit": 24.0,
+        "geo_fit": 10.0,
+        "importer_role": 18.0,
+        "contactability": 30.0,
+        "evidence": 12.0
+      },
+      "confidence": "high"
+    },
+    {
+      "rank": 3,
+      "company_name": "WearMax Inc",
+      "website": "https://www.wearmaxinc.com/",
+      "relevance_score": 93.0,
+      "match_reason": "product keywords align with Cotton Textiles; clear footprint in USA; signals importer/distributor/wholesale role; public contact details found",
+      "contact_email": null,
+      "contact_phone": "631-361-6388",
+      "contact_linkedin": null,
+      "sources_used": [
+        "https://www.wearmaxinc.com/",
+        "https://www.wearmaxinc.com/contact/"
+      ],
+      "score_breakdown": {
+        "product_fit": 28.0,
+        "geo_fit": 18.0,
+        "importer_role": 22.0,
+        "contactability": 13.0,
+        "evidence": 12.0
+      },
+      "confidence": "high"
+    },
+    {
+      "rank": 4,
+      "company_name": "ENY Textiles, Inc.",
+      "website": "https://enytextiles.net/",
+      "relevance_score": 87.0,
+      "match_reason": "product keywords align with Cotton Textiles; signals importer/distributor/wholesale role; public contact details found",
+      "contact_email": "ryoussefzadeh@enytextiles.net",
+      "contact_phone": "213-748-1400",
+      "contact_linkedin": null,
+      "sources_used": [
+        "https://enytextiles.net/"
+      ],
+      "score_breakdown": {
+        "product_fit": 28.0,
+        "geo_fit": 0.0,
+        "importer_role": 22.0,
+        "contactability": 25.0,
+        "evidence": 12.0
+      },
+      "confidence": "high"
+    },
+    {
+      "rank": 5,
+      "company_name": "Impex Textile",
+      "website": "https://www.impextextile.com/",
+      "relevance_score": 77.0,
+      "match_reason": "product keywords align with Cotton Textiles; signals importer/distributor/wholesale role; public contact details found",
+      "contact_email": null,
+      "contact_phone": "323-888-8500",
+      "contact_linkedin": null,
+      "sources_used": [
+        "https://www.impextextile.com/",
+        "https://www.impextextile.com"
+      ],
+      "score_breakdown": {
+        "product_fit": 24.0,
+        "geo_fit": 10.0,
+        "importer_role": 18.0,
+        "contactability": 13.0,
+        "evidence": 12.0
+      },
+      "confidence": "high"
+    },
+    {
+      "rank": 6,
+      "company_name": "Fox-Rich Textiles",
+      "website": "https://fox-rich.com/",
+      "relevance_score": 77.0,
+      "match_reason": "product keywords align with Cotton Textiles; signals importer/distributor/wholesale role",
+      "contact_email": null,
+      "contact_phone": null,
+      "contact_linkedin": null,
+      "sources_used": [
+        "https://fox-rich.com/",
+        "https://fox-rich.com/about.htm",
+        "https://fox-rich.com/contactus.htm"
+      ],
+      "score_breakdown": {
+        "product_fit": 28.0,
+        "geo_fit": 10.0,
+        "importer_role": 22.0,
+        "contactability": 5.0,
+        "evidence": 12.0
+      },
+      "confidence": "high"
+    }
+  ],
+  "notes": [
+    "Ran in seed_only mode for deterministic high-precision sample output.",
+    "Contact fields are taken from public website text when available. Missing email/phone usually means the site hides them behind forms."
+  ]
+}
