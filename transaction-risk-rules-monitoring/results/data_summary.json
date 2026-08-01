@@ -1,0 +1,8 @@
+{
+  "rows_generated": 2204320,
+  "base_rows": 2200000,
+  "pattern_fraud_rows_injected": 4320,
+  "fraud_rows": 30934,
+  "db_path": "C:\\Users\\saich\\Downloads\\1-TASK\\transaction-risk-rules-monitoring\\data\\payments_risk.db",
+  "multi_million": true
+}

@@ -1,0 +1,23 @@
+{
+  "baseline_quality": {
+    "alerts_raised": 2319909,
+    "unique_txns_flagged": 1111892,
+    "true_positives": 17741,
+    "false_positives": 1094151,
+    "precision": 0.016,
+    "false_positive_rate": 0.984,
+    "legitimate_pass_proxy": 0.503633,
+    "high_severity_share": 1.0
+  },
+  "optimized_quality": {
+    "alerts_raised": 11646,
+    "unique_txns_flagged": 4305,
+    "true_positives": 3496,
+    "false_positives": 809,
+    "precision": 0.8121,
+    "false_positive_rate": 0.1879,
+    "legitimate_pass_proxy": 0.999633,
+    "high_severity_share": 0.9443
+  },
+  "false_positive_noise_reduction_pct": 80.9
+}
